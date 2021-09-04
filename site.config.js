@@ -9,7 +9,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'A. Nathaniel',
-  domain: 'sznm-space',
+  domain: 'my-space.sznm.dev',
   author: 'Agustinus Nathaniel',
 
   // open graph metadata (optional)
