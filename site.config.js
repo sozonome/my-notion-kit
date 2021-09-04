@@ -13,8 +13,8 @@ module.exports = {
   author: 'Agustinus Nathaniel',
 
   // open graph metadata (optional)
-  description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
+  description: 'Hello world, this is Agustinus Nathaniel\'s space',
+  socialImageTitle: 'Agustinus Nathaniel\'s space',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
