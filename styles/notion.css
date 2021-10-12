@@ -137,15 +137,15 @@
 
 @media only screen and (max-width: 920px) {
   .index-page.notion-page {
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
 
 @media only screen and (max-width: 720px) {
   .notion-page {
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
 
