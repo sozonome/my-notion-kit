@@ -2,6 +2,8 @@ import * as React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { IconContext } from '@react-icons/all-files'
 
+import { UMAMI_SRC, UMAMI_WEBSITE_ID } from 'constants/umami'
+
 export default class MyDocument extends Document {
   render() {
     return (
@@ -17,6 +19,14 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
+
+            {/* umami self-hosted analytics */}
+            <script
+              async
+              defer
+              data-website-id={UMAMI_WEBSITE_ID}
+              src={UMAMI_SRC}
+            />
           </Head>
 
           <body>
