@@ -13,6 +13,7 @@ export interface SiteConfig {
   github?: string
   linkedin?: string
   zhihu?: string
+  fontFamily?: string
 
   defaultPageIcon?: string | null
   defaultPageCover?: string | null
