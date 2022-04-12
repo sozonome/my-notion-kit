@@ -4,8 +4,6 @@ import { IconContext } from '@react-icons/all-files'
 
 import { UMAMI_SRC, UMAMI_WEBSITE_ID } from 'constants/umami'
 
-import { UMAMI_SRC, UMAMI_WEBSITE_ID } from 'constants/umami'
-
 export default class MyDocument extends Document {
   render() {
     return (
