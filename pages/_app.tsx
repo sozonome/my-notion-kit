@@ -1,3 +1,6 @@
+// self-hosted font
+import '@fontsource/plus-jakarta-sans/latin.css';
+
 // global styles shared across the entire site
 import 'styles/global.css'
 
@@ -27,12 +30,12 @@ import { useRouter } from 'next/router'
 import * as Fathom from 'fathom-client'
 import posthog from 'posthog-js'
 
-import { bootstrap } from 'lib/bootstrap-client'
+// import { bootstrap } from 'lib/bootstrap-client'
 import { fathomId, fathomConfig, posthogId, posthogConfig } from 'lib/config'
 
-if (typeof window !== 'undefined') {
-  bootstrap()
-}
+// if (typeof window !== 'undefined') {
+//   bootstrap()
+// }
 
 export default function App({ Component, pageProps }) {
   const router = useRouter()
